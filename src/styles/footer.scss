@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Archive;
+    src: url("../fonts/Archivo_Black/ArchivoBlack-Regular.ttf");
+}
+.footer {
+    width: 100vw;
+    background-image: url('../assets/footer/BackGround-Footer.jpeg');
+    background-size: cover;
+}
+
+
+.footer{
+    width: 100%;
+}
+
+.container-footer {
+    padding: 50px 0px 50px 0px;
+    margin: 0rem 7.5rem;
+    
+}
+
+.footer-grid {
+    margin: 40px 0px 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0;
+    border-bottom: 3px solid black;
+}
+
+.bottom-title {
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: Archive;
+}
+
+.grid-1 {
+    height: auto;
+    width: 100%;
+}
+
+.bottom-subtitle {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.grid-2 {
+    width: 120px;
+}
+
+.sub-grid-2 {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0;
+    a {
+    width: 30px;
+    height: 30px;
+    padding: 2px 2px 2px 0px;
+}}
+
+.icontamanho {
+    transition: 0.5s;
+    width: 23px;
+    height: 23px;
+}
+
+.icontamanho:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+
+
+.footer-flex-1 {  
+    margin-top: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    p {
+    margin-right: 50px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 14px;
+}}
+
+.bottom-footer{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    p {
+    margin-right: 10px;
+    font-weight: bolder;
+}}
+
+
