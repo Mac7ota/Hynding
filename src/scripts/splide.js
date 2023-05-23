@@ -15,7 +15,7 @@ window.onload = function () {
 
     var Active = document.querySelector('.'+dia_da_semana);
     var ActiveText = document.querySelector('#'+dia_da_semana);
-    Active.style.display = 'flex';
+    Active.style.display = 'inline-flex';
     ActiveText.classList.add('Active');
 
     containerCardTWO.forEach ( function (card){
@@ -57,7 +57,7 @@ window.onload = function () {
       
           var Active2 = document.querySelector('.' + local);
           var ActiveText2 = document.querySelector('#' +local);
-          Active2.style.display = 'flex';
+          Active2.style.display = 'inline-flex';
           ActiveText2.classList.add('Active');
         
           dia_da_semana = local;
@@ -69,11 +69,11 @@ window.onload = function () {
 
     function passar(on, two, back) {
       if (back) {
-        on.style.display = "flex";
+        on.style.display = "inline-flex";
         two.style.display = "none";
       } else {
         on.style.display = "none";
-        two.style.display = "flex";
+        two.style.display = "inline-flex";
       }
     }
 

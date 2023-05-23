@@ -42,10 +42,12 @@
     }}
     .ContainerCard {   
         height: auto;
-        display: flex;
+        display: inline-flex;
+        width: auto;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
+        overflow-x: scroll;
         margin: 0rem 6.2rem;
         .Card{
             width: 225px;
@@ -91,6 +93,7 @@
 
 .PlayTWO {
     width: 100%;
+    padding-bottom: 50px;
     .MainControl {
         justify-content: space-between;
         align-items: center;
@@ -143,8 +146,11 @@
         background-color: rgb(6, 6, 6);  
         height: auto;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        width: auto;
+        display: inline-flex;
         justify-content: space-around;
+        overflow-x: scroll;
         padding: 25px 6.2rem;
         .Card{
             width: 225px;
@@ -186,6 +192,12 @@
         }
 }}}
 
+@media only screen and (max-width: 980px) {
+    .MainLinks {
+    display: none;
+    }
+  }
+
 .PlayTree {
     width: 100%;
     padding-bottom: 50px;
@@ -225,9 +237,11 @@
     }}
     .ContainerCard {   
         height: auto;
-        display: flex;
+        display: inline-flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        width: auto;
+        overflow-x: scroll;
         justify-content: space-around;
         margin: 0rem 6.2rem;
         .Card{
@@ -269,3 +283,53 @@
 
         }
 }}}
+
+
+@media only screen and (max-width: 700px) {
+    .PlayON {
+        .ContainerCard {
+            .Card {
+                margin: 10px;
+            }
+        }
+  }
+
+  .PlayTWO {
+    .ContainerCard {
+        .Card {
+            margin: 10px;
+        }
+    }
+}
+.PlayTree {
+    .ContainerCard {
+        .Card {
+            margin: 10px;
+        }
+    }
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+    .PlayON {
+        .MainControl {
+            margin: 1.5rem 5.5rem;
+            }
+  }
+
+  .PlayTWO {
+    .MainControl {
+        margin: 1.5rem 5.5rem;
+        }
+}
+.PlayTree {
+    .MainControl {
+        margin: 1.5rem 5.5rem;
+        }
+}
+
+
+
+
+}
