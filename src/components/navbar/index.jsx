@@ -33,9 +33,9 @@ function CollapsibleExample() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets"><FaSearch className='icontamanho'  /></Nav.Link>
+            <Nav.Link href="#deets"><FaSearch className='icontamanho lone'  /></Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-            <FaUser className='icontamanho' />
+            <FaUser className='icontamanho lone' />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

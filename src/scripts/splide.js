@@ -84,4 +84,5 @@ window.onload = function () {
     left[0].addEventListener("click", function() {passar(containerCardON[0], containerCardTWO[0], true);});
     left[1].addEventListener("click", function() { Pass(-1);  });
     left[2].addEventListener("click", function() {passar(containerCardON[1], containerCardTWO[1], true);});
+    
  }
