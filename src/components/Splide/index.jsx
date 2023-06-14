@@ -4,10 +4,12 @@ import { AiFillPlayCircle } from 'react-icons/ai';
 import { FaBars } from 'react-icons/fa';
 import '../../styles/splide.scss'
 import '../../scripts/splide.js'
+import '../../scripts/Playlist.js'
 
 export function SplitON() {
   return (
-    <div className='PlayON'>
+    <div>
+    <div className='Play_Playlist'>
         <div className='MainControl'>
         <div className='acess'>
             <h2>Playlist</h2>
@@ -18,51 +20,51 @@ export function SplitON() {
             <a id='Right'><BsChevronRight strokeWidth="2"/></a>
         </div>
         </div>
-        <div id='ContainerCardON'  className='ContainerCard'>
-        <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
-            <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span>
-        </div>
-        <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    </div>
+    <div id='ContainerCard_Playlist'  className='ContainerCard'>
+        <div className='Rolagem'>
+    <div className='Card'>
         <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span>
-        </div>
-        <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
-        <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span>
-        </div>
-        <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
-        <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span>
-        </div>
-        <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
-        <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span>
-        </div>
-        </div>
-        <div id='ContainerCardTWO' className='ContainerCard'>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' />
-        <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        </div>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' />
+    <AiFillPlayCircle size={28} color="white" className='PositionPlay'/>
+        <span className='Position'>Teste</span>
+        <span className='PositionHyding'>HYDING</span>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }
@@ -346,23 +348,6 @@ export function SplitTWO() {
             <span className='Position'>Teste</span>
             <span className='PositionHyding'>HYDING</span></div>
         <div className='Card'><img src='https://images.alphacoders.com/196/196681.jpg' alt='' /><FaBars size={24} color="white" className='PositionPlay' />
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        </div>
-        <div id='ContainerCardTWO' className='ContainerCard'>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><FaBars size={24} color="white" className='PositionPlay' />
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><FaBars size={24} color="white" className='PositionPlay' />
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><FaBars size={24} color="white" className='PositionPlay' />
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><FaBars size={24} color="white" className='PositionPlay' />
-            <span className='Position'>Teste</span>
-            <span className='PositionHyding'>HYDING</span></div>
-        <div className='Card'><img src='https://images3.alphacoders.com/189/189947.jpg' alt='' /><FaBars size={24} color="white" className='PositionPlay' />
             <span className='Position'>Teste</span>
             <span className='PositionHyding'>HYDING</span></div>
         </div>

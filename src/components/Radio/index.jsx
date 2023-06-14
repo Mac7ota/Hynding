@@ -1,5 +1,5 @@
 import '../../styles/WebRadio.scss'
-import '../../scripts/Radio.js'
+//import '../../scripts/Radio.js'
 import { FaTwitch } from 'react-icons/fa';
 import { AiFillPlayCircle } from 'react-icons/ai';
 
